@@ -1,0 +1,25 @@
+{
+    "name": "roseknife/taoke-sdk",
+    "type": "library",
+    "description": "基于淘宝客官方SDK修改",
+    "keywords": ["taoke", "taobao-sdk", "roseknife"],
+    "homepage": "http://www.shendazhe.net",
+    "license" : "GPL-3.0+",
+    "authors": [
+        {
+            "name": "RoseKnife",
+            "email": "roseknife@qq.com",
+            "homepage" : "http://www.shendazhe.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "RoseKnife\\TaoKe":"src"
+        }
+    }
+
+}
